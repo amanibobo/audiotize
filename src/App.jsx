@@ -79,7 +79,7 @@ function App() {
   }
 
   return (
-    <div className='flex flex-col max-w-[1000px] mx-auto w-full'>
+    <div className='flex flex-col mx-auto w-full'>
       <section className='min-h-screen flex flex-col'>
         <NavBar />
         {output ? (
@@ -92,7 +92,6 @@ function App() {
           <HomePage setFile={setFile} setAudioStream={setAudioStream} />
         )}
       </section>
-      <footer></footer>
     </div>
   )
 }
